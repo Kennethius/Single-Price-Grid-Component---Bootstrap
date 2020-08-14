@@ -1,0 +1,118 @@
+body {
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+}
+
+h1 {
+  color: #2ab2af;
+}
+
+h2 {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  margin-top: 200px;
+  margin-bottom: 200px;
+  width: 50%;
+}
+
+.money-back {
+  color: #c0df34;
+}
+
+.first-column {
+  padding: 50px;
+  position: relative;
+}
+
+.second-column {
+  color: white;
+  background-color: #2ab2af;
+  padding: 50px;
+  position: relative;
+}
+
+.third-column {
+  color: white;
+  background-color: #36ceca;
+  padding: 50px;
+  position: relative;
+}
+
+.myButton {
+  box-shadow: 0 3px 8px -2px #0f0f0e;
+  background-color: #c0df34;
+  border-radius: 9px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 17px 76px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background-color: #5cbf2a;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/* Mobile */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+  .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+
+  .first-column {
+    text-align: center;
+  }
+
+  .second-column {
+    text-align: center;
+  }
+
+  .third-column {
+    text-align: center;
+  }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+  .container {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+  }
+
+  .first-column {
+    text-align: center;
+  }
+
+  .second-column {
+    text-align: center;
+  }
+
+  .third-column {
+    text-align: center;
+  }
+
+
+
+ }
